@@ -34,7 +34,7 @@ class App < Sinatra::Base
     binding.pry
     case when @operation == "add"
 
-    ("#{number1}".to_i) ("#{number1}".to_i)
+    "#{number1}".to_i + "#{number1}".to_i
 
   end
 
